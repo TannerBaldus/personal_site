@@ -94,7 +94,7 @@ h3{
 
 h4{
    font-family: GloberBold;
-  font-size: 1em; 
+  font-size: 1em;
 }
 
 
@@ -192,7 +192,8 @@ h4{
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/bg1.jpg) no-repeat center center fixed; 
+/*  background: url(../img/bg1.jpg) no-repeat center center fixed; */
+  background: url(../img/gorge1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -226,7 +227,7 @@ i.service-icon {
   width: 140px;
   height: 140px;
   line-height: 136px;
-  vertical-align: middle; 
+  vertical-align: middle;
   text-align: center;
 }
 
@@ -237,7 +238,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/callout.jpg) no-repeat center center fixed; 
+  background: url(../img/callout.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -249,7 +250,7 @@ i.service-icon {
 .portfolio {
   padding: 50px 0;
   background-color: #f8f8f8;
-  overflow-x:hidden; 
+  overflow-x:hidden;
 }
 
 .portfolio-item {
@@ -307,14 +308,14 @@ i.scroll:hover {
 /* Responsive */
 
 @media (max-width: 768px) {
-	
+
   .header {
     /*background-color: blue;*/
-	/*background: url(../img/bg1.jpg) no-repeat center center scroll; */
+  /*background: url(../img/bg1.jpg) no-repeat center center scroll; */
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
+  background: url(../img/callout.jpg) no-repeat center center scroll;
   }
 
   .btn-responsive {
